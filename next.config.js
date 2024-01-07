@@ -5,7 +5,7 @@ const nextConfig = {
 
 module.exports = nextConfig
 
-module.exports = {
+module.exports = { 
     webpack: (config, options) => {
         config.resolve.alias.canvas = false;
     
