@@ -31,10 +31,14 @@ export default function Home() {
       </header>
       <main>
         {/* Your main content goes here */}
-        <h1>Welcome to my Home Page!!</h1>
+        <h1>Welcome to my Home Page!</h1>
         <br/>
-        <h1>Under Development.</h1>
+        <h3>On this site you will find an overview of my academic, professional and personal endeavours in software development.
+          </h3>
       </main>
+      <footer>
+        <h1> Under Development.</h1>
+      </footer>
     </div>
   );
 };

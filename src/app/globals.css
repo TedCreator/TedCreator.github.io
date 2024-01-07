@@ -43,7 +43,15 @@ main {
   text-align: center;
   margin: auto;
 }
-
+footer {
+  left: 10px;
+  right: 10px;
+  position: absolute;
+  bottom: 0;
+  font-size: 10px;
+  margin: auto;
+  text-align: center;
+}
 /* .Classes */
 .iconLink {
   padding: 5px;
