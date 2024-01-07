@@ -30,7 +30,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v2
       - name: Detect package manager
         id: detect-package-manager
         run: |
@@ -79,7 +79,6 @@ jobs:
         run: ${{ steps.detect-package-manager.outputs.runner }} next export
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
-        uses: actions/checkout@v2
         with:
           path: ./out
 
