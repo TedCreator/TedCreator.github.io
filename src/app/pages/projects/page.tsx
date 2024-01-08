@@ -31,7 +31,7 @@ export default function About() {
         </nav>
         <div className="iconLink">
           <Link href="https://www.github.com/TedCreator" target='_blank' rel='noopener noreferrer'>
-            <Image src={gitIcon} height={40} width={40} alt="GitHub Logo Icon" />
+            <Image id='' src={gitIcon} height={40} width={40} alt="GitHub Logo Icon" />
           </Link>
         </div>
       </header>

@@ -82,12 +82,13 @@ export default function PDF() {
         </div>
       </header>
       <main>
-        <div id='resumePDF' ref={setContainerRef}>
           <div id='downloadPDFDiv'>
-            <a id='downloadPDF' href='/Resume.pdf'>Download Resume as PDF</a>
+            <a id='downloadPDF' href='/Resume.pdf'>Download</a> Resume as PDF
           <br />
           <div> Please note your browser may open the PDF within its own viewer. </div>
           </div>
+          <div>
+          <div id='resumePDF' ref={setContainerRef}>
           <Document file={file} onLoadSuccess={onDocumentLoadSuccess} options={options}>
             {Array.from(new Array(numPages), (el, index) => (
               <Page
@@ -97,6 +98,7 @@ export default function PDF() {
               />
             ))}
           </Document>
+          </div>
         </div>
       </main>
       <footer>

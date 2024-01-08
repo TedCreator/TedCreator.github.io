@@ -12,9 +12,9 @@
   }
 }
 header {
-  background-color: #333; /* Set the background color of the navigation bar */
-  color: white; /* Set the text color */
-  padding: 10px; /* Add padding to the header for better styling */
+  background-color: #333; /* Grey */
+  color: white;
+  padding: 10px; 
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -90,7 +90,7 @@ footer {
 #downloadPDF {
   text-decoration: none;
   color: white;
-  background-color: blue;
+  background-color: red;
   padding: 5px;
   border-radius: 25px;
 }
@@ -99,4 +99,18 @@ footer {
 }
 #downloadPDFDiv div {
   margin: 10px;
+}
+
+
+@media only screen and (max-width: 600px) {
+  /* Mobile devices */
+  nav {
+    font-size: 15px;
+    display: flex;
+  }
+  nav a {
+    margin-right: 5px;
+    color: white;
+    text-decoration: none;
+  }
 }
