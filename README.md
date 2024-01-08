@@ -2,4 +2,4 @@
 <br/>
 
 <h2>This react app is hosted and rendered by Vercel at <a href="https://tedcreator.vercel.app/">TedCreator.vercel.app</a>.</h2>
-TedCreator.github.io contains code to redirect to TedCreator.vercel.app after one second using meta tags.
+TedCreator.github.io contains code to instantly redirect to TedCreator.vercel.app.
