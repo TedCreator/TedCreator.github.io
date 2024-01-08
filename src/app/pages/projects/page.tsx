@@ -1,9 +1,15 @@
 import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
+import { Metadata } from 'next';
 
 import gitIcon from '../../assets/media/GithubLogo.png'
 import homeIcon from '../../assets/media/home.png'
+
+export const metadata: Metadata = {
+  title: 'TedCreator::Projects',
+  description: 'This page hosts links and short descriptions for my current open-source projects.',
+}
 
 export default function About() {
   return (
