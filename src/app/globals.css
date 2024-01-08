@@ -87,3 +87,16 @@ footer {
 #projectTable td {
   padding: 15px;
 }
+#downloadPDF {
+  text-decoration: none;
+  color: white;
+  background-color: blue;
+  padding: 5px;
+  border-radius: 25px;
+}
+#downloadPDFDiv {
+  margin: 1px;
+}
+#downloadPDFDiv div {
+  margin: 10px;
+}
