@@ -66,13 +66,13 @@ export default function About() {
               Qt for my ZipUp app, PyQt6 for my Scheduled-Shutdown app, and React with NextJS for this site.
             </td>
           </tr>
+          <br />
           <tr>
             <td>
               <h3 className='aboutLabel'>Ambition</h3>
               <hr />
             </td>
           </tr>
-          <br />
           <tr>
             <td className='aboutContent'>
               I'm a very driven person, and at the moment the only thing I'm pursuing is my degree and a career.

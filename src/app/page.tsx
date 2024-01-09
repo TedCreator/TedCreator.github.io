@@ -28,14 +28,13 @@ export default function Home() {
             About
           </Link>
         </nav>
-        <div className="iconLink">
+        <div className='iconLink'>
           <Link href="https://www.github.com/TedCreator" target='_blank' rel='noopener noreferrer'>
             <Image src={gitIcon} height={40} width={40} alt="GitHub Logo Icon" />
           </Link>
         </div>
       </header>
       <main>
-        {/* Your main content goes here */}
         <h1>Welcome to my Home Page!</h1>
         <br/>
         <h3>On this site you will find an overview of my academic, professional and personal endeavours in software development.
