@@ -60,9 +60,10 @@ export default function About() {
           </tr>
           <tr>
             <td className='aboutContent'>
-              Though I am still working on getting work experience, as I have said I'm working on developing my skills with
-              various languages, algorithms, and data structures to create more robust and streamlined apps.
-              Currently, I'm learning User Interface frameworks such as 
+              Though I am still working on my degree and getting work experience, I am working in my own time
+              on developing my skills with various languages, 
+              algorithms, and data structures to create more robust and streamlined apps.
+              Currently, I'm learning User Interface frameworks such as:
               Qt for my ZipUp app, PyQt6 for my Scheduled-Shutdown app, and React with NextJS for this site.
             </td>
           </tr>
@@ -76,10 +77,14 @@ export default function About() {
           <tr>
             <td className='aboutContent'>
               I'm a very driven person, and at the moment the only thing I'm pursuing is my degree and a career.
-              To pair with my CS classes, I'm learning various useful languages and frameworks to be ready to work in the field.
+              To pair with my CS classes, I'm developing my skills with various useful 
+              languages and frameworks to be ready to work in the field.
               Currently, I am pursuing an internship before I graduate college to get experience.
-              In the future my dream is to be a software developer, to work closely with a team of my peers to design and develop
-              both a functional and user-friendly app.
+              In the future my goal is to be a software developer, to work closely with a 
+              team of my peers to design and develop both a functional and user-friendly app.
+              I truly adore the work of some apps and websites I use all the time. 
+              They seem like magic, but I know they have code and very skilled people behind them, 
+              and I'm working to become one of them.
             </td>
           </tr>
         </table>
