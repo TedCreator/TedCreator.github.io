@@ -82,7 +82,7 @@ export default function About() {
               Currently, I am pursuing an internship before I graduate college to get experience.
               In the future my goal is to be a software developer, to work closely with a 
               team of my peers to design and develop both a functional and user-friendly app.
-              I truly adore the work of some apps and websites I use all the time. 
+              I truly adore the design and functionality of some apps and websites I use all the time. 
               They seem like magic, but I know they have code and very skilled people behind them, 
               and I'm working to become one of them.
             </td>
